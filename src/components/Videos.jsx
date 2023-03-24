@@ -6,8 +6,8 @@ import {VideoCard , ChannelCard} from './'
 const Videos = ({video}) => {
     
   return (
-    <Stack direction='row' flexWrap="wrap" justifyContent="start"
-    gap={2}>
+    <Stack direction= 'row' flexWrap="wrap" 
+    justifyContent="start" gap={2}>
         {
             video.map((items,index)=>(
                 <Box key={index}>
